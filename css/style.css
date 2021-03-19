@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oranienbaum&family=Roboto&display=swap');
+body {
+    min-width: 320px;
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: white;
+}
+
+p {
+    font-family: 'Roboto';
+}
+
+h1, h2 {
+    text-transform: uppercase;
+    font-family: 'Oranienbaum';
+}
+
+h3, h4, h5, h6 {
+    font-family: 'Roboto';
+}
+
+header .nav-link {
+    text-transform: uppercase;
+    font-family: 'Oranienbaum';
+}
+
+header .nav-item-icon-ig {
+    background-image: url(../img/ig_white.png);
+    width: 25px;
+    height: 25px;
+}
+
+header .nav-item-icon-ig:hover {
+    background-image: url(../img/ig_blue.png);
+}
+
+header .nav-item-icon-fb {
+    background-image: url(../img/fb_white.png);
+    width: 25px;
+    height: 25px;
+}
+
+header .nav-item-icon-fb:hover {
+    background-image: url(../img/fb_blue.png);
+}
+
+header .nav-item-icon-vk {
+    background-image: url(../img/vk_white.png);
+    width: 25px;
+    height: 25px;
+}
+
+header .nav-item-icon-vk:hover {
+    background-image: url(../img/vk_blue.png);
+}
+
+header .full-width-1 {
+    width: 100%;
+}
+
+header .nav-item-phone {
+    font-size: 14px;
+    padding: 0;
+}
+
+header .block_image {
+    background: url(../img/bg-main.png) no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+header .logo {
+    margin: 150px 0 30px;
+}
+
+header .heder-motto {
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Oranienbaum';
+}
+
+header .heder-motto-text {
+    text-transform: uppercase;
+    color: goldenrod;
+    font-family: 'Oranienbaum';
+    text-decoration: underline;
+}
+
+.rotate-text {
+    display: inline-block;
+    transform: rotate(-33deg);
+    background-color: red;
+    color: white;
+    padding: 0px 90px 0;
+    position: relative;
+    left: -70px;
+    top: 12px;
+}
+
+.rotate-text p {
+    font-family: 'Roboto';
+    font-size: 20px;
+}
+
+.info-help-text {
+    margin-left: 20%;
+    margin-right: 5%;
+}
+
+.info-help-text-more {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/* .record-table{
+    margin-left: 25%;
+    margin-right: 5%;
+} */
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.table-bordered-color tr th {
+    border-color: #ecb101!important
+}
+
+.table-bordered-color tr td {
+    border-color: #ecb101!important
+}
+
+.table-currency {
+    display: inline-block;
+    padding: 5px 10px;
+    border: 1px solid black;
+}
+
+.table-text {
+    font-size: 10px;
+}
+
+del {
+    font-size: 20px;
+    font-family: 'Roboto';
+    position: relative;
+    color: rgb(87, 87, 87);
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+del:before {
+    content: "";
+    border-bottom: 3px solid red;
+    position: absolute;
+    width: 112%;
+    height: 60%;
+    transform: rotate(-10deg);
+    left: -10px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgb(0, 0, 0, 60%);
+}
+
+#myBtn {
+    /* display: none;  */
+    /* position: fixed;  */
+    /* bottom: 20px; 
+    right: 30px; 
+    z-index: 99;  */
+    border: 2px solid; 
+    outline: none; 
+    background-color: rgb(0, 0, 0); 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px 25px; 
+    border-radius: 1px; 
+    font-size: 18px; 
+    text-transform: uppercase;
+    font-family: 'Roboto';
+}
+
+#myBtn:hover {
+    background-color: rgb(27, 26, 26); 
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+
+@media (max-width: 767px) {
+
+}
+
+
+@media (max-width: 480px) {
+
+}
