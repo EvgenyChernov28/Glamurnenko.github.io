@@ -11,7 +11,7 @@ img {
 }
 
 a {
-    color: white;
+    color: rgb(252, 252, 252);
 }
 
 p {
@@ -26,6 +26,7 @@ h1, h2 {
 h3, h4, h5, h6 {
     font-family: 'Roboto';
 }
+
 
 header .nav-link {
     text-transform: uppercase;
@@ -73,10 +74,13 @@ header .nav-item-phone {
 
 header .block_image {
     background: url(../img/bg-main.png) no-repeat;
-    -moz-background-size: cover;
+    /* -moz-background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    -ms-background-size: cover; */
+    background-size: 100%;
+    height: 821px; 
+    max-height: 821px;
 }
 
 header .logo {
@@ -95,6 +99,9 @@ header .heder-motto-text {
     color: goldenrod;
     font-family: 'Oranienbaum';
     text-decoration: underline;
+}
+header .text-center-lg{
+    text-align: center;
 }
 
 .rotate-text {
@@ -130,6 +137,9 @@ header .heder-motto-text {
 
 .bg-yellow {
     background-color: yellow;
+}
+.bg-yellow p{
+    margin: 0;
 }
 
 .table-bordered-color tr th {
@@ -200,25 +210,88 @@ del:before {
 
 
 @media (min-width: 1200px) {
-
+    
 }
 
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    header .text-center-lg{
+        text-align: left;
+    }
 
 }
 
 
 @media (min-width: 768px) and (max-width: 991px) {
-
+    header .block_image{
+        height: 750px;
+    }
+    header .text-center-lg{
+        text-align: left;
+    }
+    header .logo {
+        margin: 30px 0 10px;
+        width: 170px;
+    }
+    main .cards{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 
 @media (max-width: 767px) {
-
+    header .block_image{
+        height: 750px;
+    }
+    header .text-center-lg{
+        text-align: left;
+    }
+    header .logo {
+        margin: 30px 0 10px;
+        width: 170px;
+    }
+    main .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    main .table{
+        width: 480px;
+        font-size: 12px;
+    }
+    main .table p{
+        font-size: 10px;
+    }
 }
 
 
 @media (max-width: 480px) {
-
+    header .block_image{
+        height: 750px;
+    }
+    header .text-center-lg{
+        text-align: left;
+    }
+    header .logo {
+        margin: 30px 0 10px;
+        width: 170px;
+    }
+    main .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    main .table{
+        width: 320px;
+        font-size: 10px;
+    }
+    main .th-pl{
+        padding-left: 3px;
+    }
+    main .table p{
+        font-size: 8px;
+    }
+    main table .btn{
+        font-size: 9px;
+        padding: 2px 4px;
+    }
 }
